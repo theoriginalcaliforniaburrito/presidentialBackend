@@ -1,0 +1,36 @@
+    module.exports.presidents = [
+        {
+           number:1,
+           start:"April 30, 1789",
+           end:"March 4, 1797",
+           born:"February 22, 1732",
+           died:"April 30, 1789",
+           name:"George Washington",
+           terms: 2,
+           prior:"Commander in Chief of the Continental Army ( 1775–1783 )",
+           party:"Nonpartisan",
+           vice:"John Adams",
+           state:"Virginia",
+           home:"Mount Vernon",
+           spouse:"Martha Washington",
+           portrait:"https://library.whitehousehistory.org/fotoweb/cache/5017/Main%20Index/Portraits/21.t57d2a704.m1200.tif.pv.xIJGD-tYB.jpg",
+           assassinated: false
+        },
+        {
+            number:2,
+            start:"March 4, 1797",
+            end:"March 4, 1801",
+            born:"October 30, 1735",
+            died:"July 4, 1826",
+            name:"John Adams",
+            terms: 1,
+            prior:"1st Vice President of the United States",
+            party:"Federalist",
+            vice:"Thomas Jefferson",
+            state:"Massachusetts",
+            home:"Braintree",
+            spouse:"Abigail Adams",
+            portrait:"http://masshumanities.org/wp-content/uploads/2018/04/adams-portrait.jpg",
+            assassinated: false
+         },
+]
