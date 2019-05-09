@@ -33,4 +33,38 @@
             portrait:"http://masshumanities.org/wp-content/uploads/2018/04/adams-portrait.jpg",
             assassinated: false
          },
+         {
+            number:3,
+            start:"March 4, 1801",
+            end:"March 4, 1809",
+            born:"April 13, 1743",
+            died:"July 4, 1826",
+            name:"Thomas Jefferson",
+            terms: 2,
+            prior:"2nd Vice President of the United States",
+            party:"Democratic-Republican",
+            vice:"Aaron Burr, George Clinton",
+            state:"Virginia",
+            home:"Shadwell, Virginia",
+            spouse:"Martha Jefferson",
+            portrait:"https://library.whitehousehistory.org/fotoweb/cache/5017/Main%20Index/Portraits/55.t56cc711f.m1200.tif.pv.xuc5U4w4I.jpg",
+            assassinated: false
+         },
+         {
+            number:4,
+            start:"March 4, 1809",
+            end:"March 4, 1817",
+            born:"March 16, 1751",
+            died:"June 28, 1836",
+            name:"James Madison",
+            terms: 2,
+            prior:"5th United States Secretary of State (1801–1809)",
+            party:"Democratic-Republican",
+            vice:"George Clinton,  Elbridge Gerry",
+            state:"Virginia",
+            home:"Port Conway, Virginia",
+            spouse:"Dolley Madison",
+            portrait:"https://library.whitehousehistory.org/fotoweb/cache/5017/Main%20Index/Portraits/24.t56cc7323.m1200.tif.pv.xaAeUxOc1.jpg",
+            assassinated: false
+         },
 ]
