@@ -93,20 +93,6 @@ const getByState = (req, res) => {
         })
 }
 
-const getByDeath = (req, res) => {
-    let { assassinated } = req.params
-    President.findOne({ assassinated: assassinated })
-        .exec((err, president) => {
-            if (!president) {
-                res.status(404).json({ message: 'Could not find a president with that name' })
-            } else if (err) {
-                res.status(500).json({ message: `There was an error with our database: ${err}`})
-            } else {
-                res.status(200).json(president)
-            }
-        })
-}
-
 const create = (req, res) => {
     let president = { ...req.body }
     President.create(president)
@@ -146,4 +132,4 @@ const seedDB = (req, res) => {
         .catch(err => res.status(500).json({ Error: err.message }))
 }
 
-module.exports = { index, getById, getByNumber, getByName, getByParty, getByTerms, getByState, getByDeath, create, update, destroy, seedDB }
+module.exports = { index, getById, getByNumber, getByName, getByParty, getByTerms, getByState, create, update, destroy, seedDB }
