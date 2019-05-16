@@ -53,7 +53,7 @@ const getByName = (req, res) => {
 
 const getByParty = (req, res) => {
     let { party } = req.params
-    President.findOne({ party: party })
+    President.find({ party: party })
         .exec((err, president) => {
             if (!president) {
                 res.status(404).json({ message: 'Could not find a president with that name' })
@@ -67,7 +67,7 @@ const getByParty = (req, res) => {
 
 const getByTerms = (req, res) => {
     let { terms } = req.params
-    President.findOne({ terms: terms })
+    President.find({ terms: terms })
         .exec((err, president) => {
             if (!president) {
                 res.status(404).json({ message: 'Could not find a president with that name' })
@@ -81,7 +81,7 @@ const getByTerms = (req, res) => {
 
 const getByState = (req, res) => {
     let { state } = req.params
-    President.findOne({ state: state })
+    President.find({ state: state })
         .exec((err, president) => {
             if (!president) {
                 res.status(404).json({ message: 'Could not find a president with that name' })
