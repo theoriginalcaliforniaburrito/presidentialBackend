@@ -744,7 +744,7 @@ module.exports.presidents = [
        state:"hawaii",
        home:"honolulu",
        spouse:"michelle robinson",
-       portrait:"https://d81e503ab365e970d328-091582592a5f780b4bac3b68414d35fd.ssl.cf5.rackcdn.com/default/_largeimage/barack-obama.jpg",
+       portrait:"https://cdn-images-1.medium.com/max/1200/1*-ejxw-xO_drHCsTp1diILA.png",
        assassinated: false
     },
     {
@@ -761,7 +761,7 @@ module.exports.presidents = [
        state:"new york",
        home:"new york city",
        spouse:"ivana zelníčková, marla maples, melania knauss",
-       portrait:"https://d81e503ab365e970d328-091582592a5f780b4bac3b68414d35fd.ssl.cf5.rackcdn.com/default/_largeimage/1116564.jpg",
+       portrait:"https://upload.wikimedia.org/wikipedia/commons/5/56/Donald_Trump_official_portrait.jpg",
        assassinated: false
     },
      
